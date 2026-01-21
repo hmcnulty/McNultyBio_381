@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "web"
+  title: "McNulty Bio 381"
   navbar:
     left:
       - href: index.qmd
