@@ -1,5 +1,5 @@
 ---
-title: "web"
+title: "McNulty Bio 381"
 ---
 
 This is a Quarto website.
