@@ -6,8 +6,7 @@ This webpage is for Homework for the course Computational Biology 6100.
 
 
 
-
-**Homework Links**
+## Homework Links
 
 
 [Homework 1](Homework_01.html)

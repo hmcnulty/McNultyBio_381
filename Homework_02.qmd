@@ -3,3 +3,4 @@ title: "Homework_02"
 format: html
 ---
 
+Preparing this was the homework for January 21st 2026
