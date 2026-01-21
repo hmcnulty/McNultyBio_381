@@ -3,5 +3,5 @@ title: "Homework_01"
 format: html
 ---
 
-This is homework 1 and will have some r script in it
+This is homework 1, made as a trial for site building, completed on January 21st 2026.
 
