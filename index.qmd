@@ -13,3 +13,6 @@ This webpage is for Homework for the course Computational Biology 6100.
 
 
 [Homework 2](Homework_02.html)
+
+
+[Homework 3](Homework_03.html)

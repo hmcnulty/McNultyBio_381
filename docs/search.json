@@ -18,7 +18,7 @@
     "href": "index.html#homework-links",
     "title": "McNulty Bio 381",
     "section": "Homework Links",
-    "text": "Homework Links\nHomework 1\nHomework 2"
+    "text": "Homework Links\nHomework 1\nHomework 2\nHomework 3"
   },
   {
     "objectID": "Homework_02.html",
@@ -26,5 +26,12 @@
     "title": "Homework_02",
     "section": "",
     "text": "Preparing this was the homework for January 21st 2026\nblah blah blah"
+  },
+  {
+    "objectID": "Homework_03.html",
+    "href": "Homework_03.html",
+    "title": "Homework_03",
+    "section": "",
+    "text": "This is for next week"
   }
 ]
