@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "McNulty Bio 381"
+  title: "McNulty Bio 6100"
   navbar:
     left:
       - href: index.qmd
