@@ -1,6 +1,0 @@
----
-title: "Homework1"
-format: html
----
-
-This is homework 1 and will have some r script in it
