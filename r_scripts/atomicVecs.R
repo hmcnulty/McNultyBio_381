@@ -265,11 +265,61 @@ z[c(2,3)] #slicing and putting the 2nd and third vectors together
 #using logicals
 z[z<3] #selects only the ones that are true for the statement
 
+z[!z<3]  #find everything NOT true (opposite, is greater than 3)
+
+
+#if we just do 
+z>3
+#we get booleian vectors (true, false, false, etc) so we had to use a logical to get the numbers
+
+#5 relational operators
+# < less than
+# > greater than
+# <= less than or equal to
+# >= greater than or equal to
+# == equal to
+
+#logical operators
+# ! not
+# & and (vector)
+# | or (vector)
+# xor(x,y)
+
+x <- 1:5
+
+y <- c(1:3, 7,7)
+
+x==2 #equals
+
+x !=2 #not equal
+
+x == 1 & y == 7 #AND
+
+x == 1 | y == 7 #OR
+
+x == 3 | y == 3 #OR
+
+xor(x==3, y==3)
 
 
 
+#missing values
 
+set.seed(90)
+z <- runif(10)
 
+z < 0.5
+
+z[z < 0.5] #pulls out only values that are true
+
+z[which(z < 0.5)]
+
+zd <- c(z, NA, NA) #adding NAs
+
+zd[zd < 0.5]
+
+#dropping NAs with which to index
+zd[which(zd < 0.5)]
 
 
 
