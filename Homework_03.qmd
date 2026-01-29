@@ -6,7 +6,7 @@ format: html
 
 ## Question 1
 ```{r echo = TRUE, include = TRUE, fig.align = "center"}
-#set vectors
+#Assign Variables
 x <- 1.1
 a <- 2.2
 b <- 3.3
@@ -34,7 +34,7 @@ a <- rep(1:8, times = 1) # create 1-8
 
 b <- rep(7:1, times = 1) # create 7-1
 
-my_vec <- c(a, b) #combine both vectors together
+my_vec <- c(a, b) #combine both variables together
 print(my_vec)
 
 #B (1,2,2,3,3,3,4,4,4,4,5,5,5,5,5)
@@ -45,7 +45,7 @@ c <- rep(3, times = 3)
 d <- rep(4, times = 4)
 e <- rep(5, times = 5)
 
-my_vec <- c(a, b, c, d, e)
+my_vec <- c(a, b, c, d, e) #combine all variables together
 print(my_vec)
 
 
@@ -57,7 +57,7 @@ c <- rep(3, times = 3)
 d <- rep(2, times = 4)
 e <- rep(1, times = 5)
 
-my_vec <- c(a, b, c, d, e)
+my_vec <- c(a, b, c, d, e) #combine all variables together
 print(my_vec)
 
 ```
@@ -91,38 +91,38 @@ print(polarcor)
 
 ```{r}
 
-queue <- c("sheep", "fox", "owl", "ant")
+queue <- c("sheep", "fox", "owl", "ant") # make list and name queue
 
 #a - the serpent arrives and gets in line
 a <- c(queue, "serpent")
 a
 
 #b - the sheep enters the ark
-b <- a[-1]
+b <- a[-1] # remove the 1st variable and rename
 b
 
 #c - the donkey arrives and talks his way to the front of the line
-c <- c("donkey", b )
+c <- c("donkey", b ) # add a variable to the front and rename
 c
 
 #d - the serpent gets impatient and leaves
-d <- c[-5]
+d <- c[-5] # remove the 5th variable
 d
 
 #e - the owl gets bored and leaves
-e <- d[-3]
+e <- d[-3] # remove the 3rd variable
 e
 
 #f - the aphid arrives and the ant invites him to cut in line
-fa <- e[c(1,2)]
+fa <- e[c(1,2)] # make a vector with only the first two variables and rename
 fa
-fb <- e[3]
+fb <- e[3] # make a variable with only the ladt variable and rename
 fb
-f <- c(fa, "aphid", fb)
+f <- c(fa, "aphid", fb) # combine the first set, add aphid, combine last set
 f
 
 #g - Finally, determine the position of the aphid in the line
-which(f == "aphid")
+which(f == "aphid") 
 
 
 
@@ -135,10 +135,10 @@ which(f == "aphid")
 
 ```{r}
 
-x <- 1:100
+x <- 1:100 # make a vector 1-100 and name
 x
 
-y <- x[!(x%%2==0 | x%%3==0 | x%%7==0)]
+y <- x[!(x%%2==0 | x%%3==0 | x%%7==0)] # use ! to exclude any thing that can be divided by 2, 3, or 7 and name
 y
 
 ```
