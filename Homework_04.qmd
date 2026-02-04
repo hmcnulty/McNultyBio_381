@@ -32,7 +32,7 @@ print(t_matrix)
 # The matrix had now flipped on a diagonal axis.
 
 # calculate the sum and the mean of the elements in the first row and then the last row.
-c(sum(t_matrix[1,]), mean(t_matrix[1,]), sum(t_matrix[n_dims,]), mean(t_matrix[n_dims]))
+c(sum(t_matrix[1,]), mean(t_matrix[1,]), sum(t_matrix[n_dims,]), mean(t_matrix[n_dims,]))
 
 # read about the eigen() function and use it on your matrix
 eigen(t_matrix, only.values = FALSE)
@@ -97,7 +97,7 @@ typeof(new_list)
 
 # call the first variable my_unis and fill it with 26 random uniform values from 0 to 10
 my_unis <- runif(1:26, min = 0, max = 10)
-mu_unis
+my_unis
 
 # call the second variable my_letters and fill it with 26 capital letters in random order.
 my_letters2 <- sample(LETTERS)
